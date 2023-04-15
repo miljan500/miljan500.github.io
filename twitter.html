@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Twitter</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="stil1.css">
+
+	<script>
+	function niz(){
+	var n=prompt('Uneti n');
+	a=[];
+	var s="";
+	for(i=0;i<n;i++)
+		a[i]=Math.floor(Math.random()*10);
+	for(i=0;i<n;i++)
+		s+=a[i]+" ";
+	console.log('Prikaz niza:');
+	console.log(s);
+	}
+
+	function matrica(){
+	var n=prompt('Uneti n');
+	var m=prompt('Uneti m');
+	a=[];
+	var s="";
+	for(i=0;i<n;i++)
+	{
+		b=[];
+		for(j=0;j<m;j++)
+			b[j]=Math.floor(Math.random()*10);	
+		a[i]=b;
+	}
+	console.log('Prikaz matrice:');
+	for(i=0;i<n;i++)
+	{
+		var s="";
+		for(j=0;j<m;j++)
+			s+=a[i][j]+" ";	
+		console.log(s);
+	}
+	}	
+	</script>
+</head>
+<body>
+
+<div style="position:absolute; top:0px; left:10%; width:80%; right:10%;">
+<header>
+  	<img id="slika1">	<img id="slika11">
+  	<hr id="hr1">
+  	<p id="paragraf1"><b>Miljan Milivojević</b></p>
+  	<p id="paragraf2"><b><b class="boja1"">HTML,</b><b class="boja1"> CSS & JS</b> <b style="font-size:42px;">Projekat</b></b></p>
+  	<hr id="hr2">
+  	<div id="nav1">
+		<a class="l1" href="o_sebi.html">O sebi</a>
+		<a class="l1" href="hobi.html">Hobi</a>
+		<a class="l1 l11" href="buduce_zanimanje.html">Buduće<br>zanimanje</a>
+		<a class="l1 l11" href="web_programiranje.html">Web<br>programiranje</a>
+		<a class="l1" href="psihologija.html">Psihologija</a>
+		<a class="l1 tekuci" href="twitter.html">Twitter</a>
+		<a class="l1" href="negotin.html">Negotin</a>
+		<a class="l1 l11" href="vremenske_zone.html">Vremenske zone</a>
+  	</div>
+</header>
+
+<nav id="visina4">
+	<p id="naslov_nav">Ostali linkovi:</p>
+	<hr id="hr4">
+	<a class="l2 ddd" href="https://www.negotinskagimnazija.edu.rs/index.html">Sajt negotinske gimnazije</a>
+	<hr id="hr4">
+	<a class="l2" href="http://negotin.rs">Sajt opštine Negotin</a>
+	<hr id="hr4">
+	<a class="l2" href="https://miljanmilivojevicitng.wordpress.com">Moj Wordpress sajt</a>
+	<hr id="hr4">
+</nav>
+
+<main id="visina4">
+	<p id="naslov1">Twitter</p>
+	<img id="slika_twitter">
+	<p id="tekst2"><b style="color:#4EA7DC;"">Twitter</b> je društvena mreža na Internetu koja omogućava svojim korisnicima da šalju i čitaju tuđe tekstualne poruke/celine (tvitove).</p>
+	<p id="tekst2">Osnivači Twitter-a: Jack Dorsey, Noah Glass, Biz Stone i Evan Williams su napravili u martu , a objavili ovu društvenu mrežu u <b>julu 2006.</b> godine.</p>
+	<p id="tekst2"><b>Tvit</b> je tekstualna poruka sa maksimalno 280 znakova i objavljivanjem taj tvit postaje vidljiv na profilu korisnika koji objavljuje/piše tvit.</p>
+	<p id="podnaslov1">Otvaranje naloga (Registracija) / Prijava</p>
+	<form name="fr1" id="forma1">
+		<input type="button" id="dugme" name="d1" style="display:inline;float:left;width:48%;" onclick="document.forms.fr1.fs1.hidden=false; style.display='none';document.forms.fr1.d2.style.display='none';document.forms.fr2.fs1.hidden=true;" value="Registruj se"></input>
+		<input type="button" id="dugme" name="d2" style="display:inline;float:right;width:48%" onclick="document.forms.fr1.fs1.hidden=true; style.display='none';document.forms.fr1.d1.style.display='none';document.forms.fr2.fs1.hidden=false;" value="Prijavi se"></input>
+		<fieldset name="fs1">
+			<legend id="tekst2" style="text-align:center">Twitter Registracija</legend>
+			<label id="tekst2" style="margin-left:0px;font-weight:bold;">Napravi nalog</label><p></p>
+			<input name="tb1" type="text" placeholder="Ime"></input><p></p>
+			<input name="tb2" type="text" placeholder="Prezime"></input><p></p>
+			<input name="tb3" type="text" placeholder="E-mail adresa"></input><p></p>
+			<input name="tb4" type="password" placeholder="Lozinka"></input><p></p>
+			<label>Datum rodjenja:</label>
+			<input name="dr" type="date" style="display:inline;padding:5px;width:25%;"></input><p></p>
+			<label>Zemlja porekla:</label>
+			<select name="lista1" size="1">
+				<optgroup label="Evropa">
+					<option value="Srbija">Srbija</option>
+					<option value="Bugarska">Bugarska</option>
+					<option value="Francuska">Francuska</option>
+					<option value="Nemacka">Nemacka</option>
+				</optgroup>
+					<optgroup label="Severna Amerika">
+					<option value="SAD">SAD</option>
+					<option value="Kanada">Kanada</option>
+					<option value="Meksiko">Meksiko</option>
+				</optgroup>
+				<optgroup label="Juzna Amerika">
+					<option value="Brazil">Brazil</option>
+					<option value="Argentina">Argentina</option>
+					<option value="Bolivija">Bolivija</option>
+					<option value="Kolumbija">Kolumbija</option>
+				</optgroup>
+				<optgroup label="Azija">
+					<option value="Japan">Japan</option>
+					<option value="Kina">Kina</option>
+					<option value="Indija">Indija</option>
+				</optgroup>
+					<optgroup label="Afrika">
+					<option value="Egipat">Egipat</option>
+					<option value="Nigerija">Nigerija</option>
+					<option value="Etiopija">Etiopija</option>
+				</optgroup>
+			</select><p></p>
+			<label id="in1">Pol:</label>
+			<input id="in1" type="radio" name="r1" value="Muski">Muski</input>
+			<input id="in1" type="radio" name="r1" value="Zenski">Zenski</input><p></p>
+			<input id="in1" type="checkbox" name="cb1" value="Ucenik">Ucenik</input>
+			<input id="in1" type="checkbox" name="cb2" value="Zaposlen">Zaposlen</input><p></p>
+			<textarea name="ta1"placeholder="O sebi"></textarea><p></p>
+			<input class="bt bt1" name="bt1" type="button" value="Dalje"></input>
+			<input id="dugme" class="bt bt2" name="bt2" type="reset" value="Ponisti"></input>
+			<input id="dugme" class="bt bt2" name="bt2" type="reset" value="Nazad" style="float:right"; onclick="document.forms.fr1.fs1.hidden=true;document.fr1.d1.style.display='inline-block';document.fr1.d2.style.display='inline-block'"></input>
+		</fieldset>
+	</form>
+	<form name="fr2" id="forma1">
+			<fieldset name="fs1">
+			<legend id="tekst2" style="text-align:center">Twitter Prijava</legend>
+			<label id="tekst2" style="margin-left:0px;font-weight:bold;">Prijavi se</label><p></p>
+			<input name="tb1" type="text" placeholder="Ime"></input><p></p>
+			<input name="tb2" type="password" placeholder="Lozinka"></input><p></p>
+			<input class="bt bt1" name="bt1" type="button" value="Dalje"></input>
+			<input id="dugme"  class="bt bt2" name="bt2" type="reset" value="Ponisti"></input>
+			<input id="dugme"  class="bt bt2" name="bt2" type="reset" value="Nazad" style="float:right"; onclick="document.forms.fr2.fs1.hidden=true;document.fr1.d1.style.display='inline-block';document.fr1.d2.style.display='inline-block'"></input>
+			</fieldset>
+	</form>
+
+	<p id="podnaslov1">Rad sa nizom, matricom u konzoli</p>
+
+	<form name="fr3" id="forma1">
+		<input type="button" id="dugme" value="Generisi niz" onclick="niz()" style="display:inline;float:left;width:48%;"></input>
+		<input type="button" id="dugme" value="Generisi matricu" onclick="matrica()" style="display:inline;float:right;width:48%;"></input>
+	</form>
+	<p id="podnaslov1">Praćenje/Following na Twitter-u</p>
+	<p id="tekst2">Ukoliko ,,zapratimo“ nekog korisnika na Twitter-u, tvitovi tog korisnika će se prikazivati na Početnoj (Home) stranici Twitter-a.
+Praćenje olakšava korišćenje Twitter-a i sve tvitove tema za koje je korisnik zainteresovan skuplja i prikazuje na jednom mestu (Stranica Home).</p>
+	<img src="slike/twit1.png">
+	<p id="tekst2">Da bi "zapratili“ nekog korisnika potrebno je da prvo pristupimo profilnoj stranici tog korisnika. Na toj stranici možemo da vidimo broj korisnika koje korisnik prati i broj pratioca tog korisnika. Zatim kliknemo na dugme ,,Prati„.</p><p id="tekst2">Od tada mi pratimo tog korisnika i tvitovi tog korisnika su prikazani na Početnoj(Home) stranici.</p>
+</main>
+
+<aside id="visina4">
+	<p id="naslov_nav">Kontakt autora:</p>
+	<hr id="hr4">
+	<p id="tekst_aside"><u>Adresa:</u></p>
+	<p id="tekst_aside"><i>Stanoja Gačića 24</i></p>
+	<p id="tekst_aside"><u>Telefon:</u></p>
+	<p id="tekst_aside"><i>069/5470055</i></p>
+	<p id="tekst_aside"><u>Mail:</u></p>
+	<p id="tekst_aside" style="font-size:15px;margin:float:left">miljan572@gmail.com</p>
+	<p id="naslov_nav">Vesti:</p>
+	<hr id="hr4">
+	<p id="tekst_aside"><u>10.1.2023.</u></p>
+	<p id="tekst_aside">Započeti radovi na sajtu</p>
+	<p id="tekst_aside"><u>11.1.2023.</u></p>
+	<p id="tekst_aside">Završen rad na stranici "O sebi"</p>
+	<p id="tekst_aside"><u>12.1.2023.</u></p>
+	<p id="tekst_aside">Završen rad na sajtu(CSS)</p>
+	<p id="tekst_aside"><u>19.3.2023.</u></p>
+	<p id="tekst_aside">Dodate 3 stranice</p>
+	<p id="tekst_aside"><u>20.3.2023.</u></p>
+	<p id="tekst_aside">Završen rad na sajtu(JS)</p>
+	<hr id="hr4">
+
+</aside>
+
+<footer>
+  	<marquee behavior="alternate" direction="right" style="position:relative; margin-top:15px;">
+     		<img id="gif1">
+  	</marquee>
+  	<h2 id="paragraf4">WebProgramiranje</h2>
+  	<h2 id="paragraf5">NEGOTIN 2023.</h2>
+  	<h2 id="paragraf3">NEGOTINSKA GIMNAZIJA IV4</h2>
+  	<hr id="hr3">
+</footer>
+</div>
+	<script src="skript1.js"></script>
+	<script>
+	document.forms.fr1.fs1.hidden=true;
+	document.forms.fr2.fs1.hidden=true;
+	document.fr1.bt1.addEventListener("click",registracija);
+	document.fr2.bt1.addEventListener("click",prijava);
+
+	function registracija()
+	{
+	var a=confirm('Da li ste sigurni da ste uneli ispravne podatke?');
+	if(a==true)
+	{
+	var s=document.fr1.tb1.value+" "+document.fr1.tb2.value+" "+document.fr1.tb3.value+" "+document.fr1.tb4.value+" "+document.fr1.dr.value+" 		"+document.fr1.lista1.value+" "+document.fr1.r1.value+" ";
+	if(document.fr1.cb1.checked==true)
+		s+=document.fr1.cb1.value+" ";
+	if(document.fr1.cb2.checked==true)
+		s+=document.fr1.cb2.value+" ";
+	s+=document.fr1.ta1.value;
+	alert("Prikaz naloga"+s);
+	document.write(s);
+	}
+	}
+
+	function prijava()
+	{
+	var s=document.fr2.tb1.value+" "+document.fr2.tb2.value;
+	alert("Prikaz: "+s);
+	document.write("Prikaz: "+s);
+	}
+
+	</script>
+</body>
+</html>
