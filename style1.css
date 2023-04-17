@@ -16,11 +16,11 @@
 {
   height:340px;
   width:340px;
+  transition:.4s ease-in-out 0s;
 }
 #icon:hover
 {
-  transition:.4s ease-in-out 0s;
-  transform:scale(100px,100px);
+
   height:380px;
   width:380px;
 
@@ -160,7 +160,6 @@
 {
   font-size:24px;
   color: #EEE;
-  color: #
 }
 #t2
 {
@@ -170,7 +169,9 @@
 #icons1
 {
   display:flex;
-  height:80px;
+
+  height:180px;
+  
   margin-top:0px;
   margin-bottom:50px;
   margin-left:0px;
@@ -179,10 +180,8 @@
 {
   flex:1;
 
-  width:100px;
-  height:100px;
-  padding-left:12%;
-  padding-right:14%;
+  width:33%;
+  height:100%;
 }
 #icons2
 {
@@ -200,8 +199,114 @@
   padding-right:11%;
 }
 
-#icon
+.icon1
+{
+  display: block;
+  border-color: #55aa55;
+  width: 128px; 
+  height: 128px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0px;
+}
 
+#text2
+{ 
+  font-weight:bold;
+  font-family: sans-serif;
+  line-height: 1.25;
+  color: #CCC;
+  font-size:24px;
+  width: 100%;
+  text-align:center;
+}
 
+#roadmap
+{
+  content:url('images/form.png');
+  float:left;
+  width:50px;
+  height:50px;
+  padding:5px;
+  padding-left:5%;
+}
+#b4
+{
+  flex: .8;
+  background: #7e3131;
+  border: 1px solid #635757;
+}
+.classbox
+{
+  height:370px;
+  border-style:solid;
+  border-width:4px;
+  border-radius:40px;
 
+  margin-bottom:50px;
+  display:none;
+  transition:.4s ease-in-out 0s;
+}
+#swordsman
+{
+  background-color: rgb(232 239 7 / 17%);
+  border: 1px solid rgba(232,239,7,0.2);
+}
+#fighter
+{
+  background-color:rgb(223 48 72 / 17%);
+  border: 1px solid rgba(223,48,72,0.2);
+}
+#wizard
+{
+  background-color: rgba(0,127,255,0.1);
+  border: 1px solid rgba(0,127,255,0.1);
+}
+#title1
+{
+  font-weight:bold;
+  font-family: sans-serif;
+  line-height: 1.25;
+  font-size:40px;
+  text-align:left;
+  color: #EEE;
+  text-decoration:none;
+  margin:0px;
+  margin-left:5%;
+  margin-top:1%;
+  font-style:italic;
+}
 
+#photo1
+{
+  float:left;
+  width:260px;
+  height:250px;
+  margin-left:5%;
+  margin-right:5%;
+}
+
+#photo2
+{
+  float:left;
+  width:450px;
+  height:250px;
+}
+
+#photo3
+{
+  float:left;
+  width:450px;
+  height:250px;
+}
+
+#description
+{
+  font-weight:bold;
+  font-family: sans-serif;
+  line-height: 1.25;
+  color: #CCC;
+  font-size:30px;
+  width: 100%;
+  text-align:left;
+}
