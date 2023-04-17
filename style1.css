@@ -1,0 +1,207 @@
+#background
+{
+    background: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0.75)), url(images/t6.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: repeat;
+    background-color: #000000;
+    background-attachment: fixed;
+
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 50px;
+    overflow-x:hidden;
+}
+#icon
+{
+  height:340px;
+  width:340px;
+}
+#icon:hover
+{
+  transition:.4s ease-in-out 0s;
+  transform:scale(100px,100px);
+  height:380px;
+  width:380px;
+
+  border-radius:30px;
+}
+#text1
+{
+  font-weight:bold;
+  font-family: sans-serif;
+  line-height: 1.25;
+  color: #CCC;
+  font-size:24px;
+  text-align:center;
+  margin:15px;
+  margin-bottom:55px;
+  margin-top:5px;
+}
+#container0
+{
+  margin-bottom:15px;
+}
+#container1
+{
+  margin:auto;
+  display:flex;
+  margin-top:4px;
+  margin-bottom:10px;
+}
+#l1
+{
+  flex:1;
+  width:40px;
+  width:40%;
+  padding:10px;
+  margin:0px;
+}
+#buttons
+{
+  display:flex;
+  height:80px;
+  margin-left:20px;
+  margin-right:20px;
+  margin-top:0px;
+  margin-bottom:50px;
+}
+.button
+{
+  flex:1;
+  border-style:solid;
+  margin-left:25px;
+  margin-right:25px;
+  margin-top:0px;
+  margin-bottom:15px;
+
+  font-weight:bold;
+  font-family: sans-serif;
+  line-height: 1.25;
+  font-size:30px;
+  text-align:center;
+  color: #EEE;
+  text-decoration:none;
+}
+#b1
+{
+  flex: 1.3;
+  background: #224422;
+  border: 1px solid #448844;
+}
+#roblox
+{
+  content:url('images/roblox.png');
+  float:left;
+  width:50px;
+  height:50px;
+  padding:5px;
+  padding-left:5%;
+}
+#btext
+{
+  margin-top:13px;
+}
+#b2
+{
+  flex: .8;
+  background: #2a3044;
+  border: 1px solid #446688;
+}
+#discord
+{
+  content:url('images/discord.png');
+  float:left;
+  width:50px;
+  height:50px;
+  padding:5px;
+  padding-left:5%;
+}
+#b3
+{
+  flex: .8;
+  background: #7e3131;
+  border: 1px solid #635757;
+}
+#form
+{
+  content:url('images/form.png');
+  float:left;
+  width:50px;
+  height:50px;
+  padding:5px;
+  padding-left:5%;
+}
+#b1:hover
+{
+  border: 1px solid #55aa55;
+}
+#b2:hover
+{
+  border: 1px solid #6688aa;
+}
+#b3:hover
+{
+  border: 1px solid #f5d9dd;
+}
+.btext1:hover
+{
+  color: #CCFFCC;
+}
+.btext2:hover
+{
+  color: #CCDDFF;
+}
+.btext3:hover
+{
+  color:#f5d9dd;
+}
+#t1
+{
+  font-size:24px;
+  color: #EEE;
+  color: #
+}
+#t2
+{
+  color:#0e89dc;
+  font-style:italic;
+}
+#icons1
+{
+  display:flex;
+  height:80px;
+  margin-top:0px;
+  margin-bottom:50px;
+  margin-left:0px;
+}
+.icon
+{
+  flex:1;
+
+  width:100px;
+  height:100px;
+  padding-left:12%;
+  padding-right:14%;
+}
+#icons2
+{
+  display:flex;
+  height:80px;
+  margin-top:0px;
+  margin-left:0px;
+}
+.icont
+{
+  flex:1;
+
+  width:100px;
+  padding-left:10%;
+  padding-right:11%;
+}
+
+#icon
+
+
+
+
